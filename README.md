@@ -10,7 +10,8 @@ We suppose that individuals with higher levels of motivation are more likely to 
 We generate a dataset and we estimate the policy impact in three different ways: 
 1. PS Matching on solely backgroung characteristics
 2. PS Maching combined with DiD
-3. PS Matching on background characteristics and baseline outcome levels. 
+3. PS Matching on background characteristics and baseline outcome levels.
+
 We perform this procedure multiple times (MC simulations) and for each method we compute the mean among all the estimated impacts.Finally, we compare the final results and we draw our conclusions.
 
 In this project, the key variables are the following ones:
