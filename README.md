@@ -44,4 +44,4 @@ As expected, we can see that Method1 (raw PS-Matching on background characterist
 
 In conclusion, the combination of PS-Matching and DiD offers a powerful approach to address selection bias and account for unobservable invariant factors in policy evaluation. By providing reliable estimates of policy impacts, this method can contribute to more informed decision-making processes in various policy settings.
 
-For further details see the stata script and the pdf report in this directory.
+For further details see the Stata script and the pdf report for this project in this directory.
