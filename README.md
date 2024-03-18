@@ -7,7 +7,10 @@ The primary aim is to show that PS Matching combined with DiD is a powerful appr
 Suppose we want to evaluate the impact of a training program on the earnings of young individuals in a given country. 
 We suppose that individuals with higher levels of motivation are more likely to apply. Therefore there exists a selection bias based on an unobservable variable (motivation). We suppose that motivation is constant over time.
    
-We generate a dataset and we estimate the policy impact in three different ways: PS Matching on solely backgroung characteristics, PS Maching combined with DiD and PS Matching on background characteristics and baseline outcome levels. 
+We generate a dataset and we estimate the policy impact in three different ways: 
+1. PS Matching on solely backgroung characteristics
+2. PS Maching combined with DiD
+3. PS Matching on background characteristics and baseline outcome levels. 
 We perform this procedure multiple times (MC simulations) and for each method we compute the mean among all the estimated impacts.Finally, we compare the final results and we draw our conclusions.
 
 In this project, the key variables are the following ones:
