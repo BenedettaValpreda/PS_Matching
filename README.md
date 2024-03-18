@@ -1,7 +1,7 @@
 # PS Matching
 ## Project objective
 In this project I imagine a policy evaluation application and I apply PS Matching using Monte-Carlo simulations.  
-The primary aim is to show that PS Matching combined with DiD is a powerful approach to account for unobservable variables constant over time. This method is able to correct for selection bias thus outperforming PS Matching on background characteristics and baseline outcome levels. 
+The primary aim is to show that PS Matching combined with DiD is a powerful approach to estimate the impact of a policy when there is not a clear assignment rule to the treatment (like randomization or ranking) while accounting for unobservable variables constant over time. This method is able to correct for selection bias and outperforms PS Matching using background characteristics and baseline outcome levels. 
 
 ## Case study and Data
 Suppose we want to evaluate the impact of a training program on the earnings of young individuals in a given country. 
