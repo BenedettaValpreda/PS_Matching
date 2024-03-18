@@ -12,7 +12,7 @@ We generate a dataset and we estimate the policy impact in three different ways:
 2. PS Maching combined with DiD
 3. PS Matching on background characteristics and baseline outcome levels.
 
-We perform this procedure multiple times (MC simulations) and for each method we compute the mean among all the estimated impacts.Finally, we compare the final results and we draw our conclusions.
+We perform this procedure multiple times (MC simulations) and for each method we compute the mean among all the estimated impacts. Finally, we compare the final results and we draw our conclusions.
 
 In this project, the key variables are the following ones:
 * female: binary variable that equals 1 for females and 0 for males
@@ -21,8 +21,7 @@ In this project, the key variables are the following ones:
 * motivation: unobservable numeric variable that follows a normal distribution. This variable is used to generate outcome variables but is omitted when applying the three methods to estimate the impact of the program
 * treated: binary variable that takes the value 1 for individuals participating in the program (those with motivation levels above the mean equal to 0) and 0 otherwise
 
-The outcome variable of interest is wage. We first compute wage at baseline level as a function of individual explanatory variables (observable or not) plus a random error term ϵ (representing any "out of control" factor affecting wages like good/bad luck). 
-As a result, in this project I generate baseline wage according to this equation:
+The outcome variable of interest is wage. We first compute wage at baseline level as a function of individual explanatory variables (observable or not) plus a random error term ϵ (representing any "out of control" factor affecting wages like good/bad luck) with this equation:
 
 ` gen wage_pre = ceil(1500 - 100*female + 20*age + 10*education_latent +20*motivation + epsilon)  `
 
