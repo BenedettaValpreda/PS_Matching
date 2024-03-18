@@ -39,8 +39,8 @@ We suppose that the true impact of the training program is a wage increase of
 In this section, we compare the results obtained with the three methods mentioned above running MC simulations. 
 
 
-As expected, can see that Method1 (raw PS-Matching on background characteristics) provides a biased estimation of the treatment effect. Method2 (PS-Matching combined with DiD) is able to correct the bias and gives the exact true impact. Method3 (PS-Matching on background plus baseline outcome) closely approximates the true effect but only in mean. 
+As expected, we can see that Method1 (raw PS-Matching on background characteristics) provides a biased estimation of the treatment effect. Method2 (PS-Matching combined with DiD) is able to correct the bias and gives the exact true impact. Method3 (PS-Matching on background plus baseline outcome) closely approximates the true effect but only in mean. 
 
 In conclusion, the combination of PS-Matching and DiD offers a powerful approach to address selection bias and account for unobservable invariant factors in policy evaluation. By providing reliable estimates of policy impacts, this method can contribute to more informed decision-making processes in various policy settings.
 
-
+For further details see the stata script and the pdf report in this directory.
