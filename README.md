@@ -26,6 +26,7 @@ We suppose that the true impact of the training program is a wage increase of
 200 units. Therefore I generate the wages at endline level with these equations:
 
 ` gen wage_post = wage_pre + 200 if treated == 1 `
+ 
 ` replace wage_post = wage_pre if treated == 0 `
 
 
