@@ -38,7 +38,7 @@ We suppose that the true impact of the training program is a wage increase of
 ## Results and Conclusions
 In this section, we compare the results obtained with the three methods mentioned above running MC simulations. 
 
-![image](https://github.com/BenedettaValpreda/PS_Matching/assets/147848856/7699faa3-7d21-488d-9fbc-fb8cfadfe706)
+![image](https://github.com/BenedettaValpreda/PS_Matching/assets/147848856/408b5248-34aa-4e23-a47d-265d997176b3)
 
 As expected, we can see that Method1 (raw PS-Matching on background characteristics) provides a biased estimation of the treatment effect. Method2 (PS-Matching combined with DiD) is able to correct the bias and gives the exact true impact. Method3 (PS-Matching on background plus baseline outcome) closely approximates the true effect but only in mean. 
 
