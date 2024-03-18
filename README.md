@@ -26,7 +26,7 @@ The outcome variable of interest is wage. We first compute wage at baseline leve
 ` gen wage_pre = ceil(1500 - 100*female + 20*age + 10*education_latent +20*motivation + epsilon)  `
 
 We suppose that the true impact of the training program is a wage increase of
-200 units. Therefore I generate the wages at endline level with these equations:
+200 units. Therefore we generate the wages at endline level with these equations:
 
 ` gen wage_post = wage_pre + 200 if treated == 1 `
  
